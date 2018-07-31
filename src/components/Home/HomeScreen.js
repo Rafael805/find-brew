@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button } from 'native-base';
 import { View, Text, StyleSheet, Image } from 'react-native';
 
-const backgroundImage = require('../../../assets/splash.jpg');
+const backgroundImage = require('../../../assets/HomeScreen/home_screen_background.jpg');
 
 export default class HomeScreen extends Component {
    static navigationOptions = {
@@ -16,7 +16,7 @@ export default class HomeScreen extends Component {
                <Image source={backgroundImage} style={{ flex: 1, height: null, width: null }} />
             </View>
             <Button
-               block={true}
+               block
                onPress={() => this.props.navigation.navigate('SearchTabNavigator')}
             >
                <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 16, paddingBottom: 8 }}>
