@@ -2,7 +2,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.2",
     "eslint-config-rallycoding": "^3.2.0",
     "expo": "^24.0.0",
     "native-base": "^2.3.5",
